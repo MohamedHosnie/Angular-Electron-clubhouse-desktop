@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  height: 100%;
+  max-width: 100%;
+  font-family: Noto Sans, Noto Naskh Arabic UI, Noto Naskh Arabic, Roboto, Helvetica Neue, sans-serif !important;
+}
+
+body {
+  background-color: #f2efe7;
+  border: 1px solid #bbb5a1;
+  width: 100%;
+  font-size: 1em !important;
+  font-weight: 600 !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input, button, textarea, :focus {
+  outline: none;
+  /* You should add some other style for :focus to help UX/a11y */
+}
+
+a:not([draggable=true]), img:not([draggable=true]) {
+  -webkit-user-drag: none;
+  user-drag: none; /* Technically not supported in Electron yet */
+}
+
+a[href^="http://"],
+a[href^="https://"],
+a[href^="ftp://"] {
+  -webkit-user-drag: auto;
+  user-drag: auto; /* Technically not supported in Electron yet */
+}
+
+.drag {
+  -webkit-app-region: drag;
+}
+
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

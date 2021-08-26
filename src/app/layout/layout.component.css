@@ -1,0 +1,14 @@
+
+.mat-toolbar {
+  background-color: transparent;
+}
+
+.title {
+  margin-left: 0.8em;
+  vertical-align: middle;
+  font-size: 1.1em;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
