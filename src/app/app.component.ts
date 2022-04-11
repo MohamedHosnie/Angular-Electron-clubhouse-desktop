@@ -1,10 +1,28 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { SectionDataSharedService } from './core/services/section-data-shared.service';
+import { ElectronHelper } from './shared/helpers/electron-helper';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <router-outlet></router-outlet>
+    
+`,
+  providers: [
+    SectionDataSharedService
+  ]
 })
-export class AppComponent {
-  title = 'clubhouse-desktop';
+export class AppComponent implements AfterViewInit {
+  
+  title = 'Clubhouse Desktop';
+
+  constructor(private _sectionDataSharedService: SectionDataSharedService) {
+
+  }
+
+  ngAfterViewInit(): void {
+    ElectronHelper.onWindowCreated('profile', (event: any, data: any) => {
+      this._sectionDataSharedService.data = data;
+    });
+  }
 }

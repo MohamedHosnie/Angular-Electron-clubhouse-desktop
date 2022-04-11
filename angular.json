@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "index.html",
             "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -27,10 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/custom-theme.scss",
               "src/styles.css",
               "src/assets/fonts/stylesheet.css"
+              //"src/assets/system fonts/stylesheet.css"
             ],
             "scripts": []
           },

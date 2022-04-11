@@ -1,0 +1,44 @@
+<mat-toolbar class="drag border-bottom row">
+  <span class="d-flex col-4 justify-content-start p-0 flex-nowrap">
+    <span matRipple class="d-flex flex-shrink-1 p-1 rounded no-drag clickable"
+          matTooltip="PROFILE" (click)="profileButtonClick()">
+      <span class="flex-shrink-0 mr-3">
+        <ngx-avatar [src]="currentUser.avatar"
+                    [name]="currentUser.name"
+                    [round]="false"
+                    [cornerRadius]="17"></ngx-avatar>
+      </span>
+      <span class="flex-grow-1 d-flex flex-wrap align-items-center justify-content-between mt-0">
+        <span class="mr-3">
+          <span class="d-flex align-items-center username mr-3 font-500">{{ currentUser.name }}</span>
+          <span class="d-flex flex-wrap tagname font-400">{{ currentUser.tagname }}</span>
+        </span>
+      </span>
+    </span>
+  </span>
+  
+  <span class="d-flex col-4 justify-content-center">
+    <button matRipple class="no-drag rounded transparent menu-btn mr-2"
+            matTooltip="EXPLORE">
+      <img src="./assets/icons/search.png" />
+    </button>
+    <button matRipple class="no-drag rounded transparent menu-btn mr-2"
+            matTooltip="INVITES">
+      <img src="./assets/icons/invite.png" />
+    </button>
+    <button matRipple class="no-drag rounded transparent menu-btn mr-2"
+            matTooltip="UPCOMING FOR YOU">
+      <img src="./assets/icons/calendar.png" />
+    </button>
+    <button matRipple class="no-drag rounded transparent menu-btn"
+            matTooltip="ACTIVITY">
+      <img [src]="'./assets/icons/New notifications=' + (newNotification == true ? 'on' : 'off') + '.png'" />
+    </button>
+  </span>
+  <span class="actions-container d-flex col-4 justify-content-end p-0">
+    <app-window-actions [options]="windowOptions"></app-window-actions>
+  </span>
+</mat-toolbar>
+<app-profile #profileComponent></app-profile>
+
+

@@ -1,130 +1,126 @@
 @font-face {
-    font-family: 'Noto Naskh Arabic';
-    src: url('NotoNaskhArabic.woff2') format('woff2'),
-        url('NotoNaskhArabic.woff') format('woff'),
-        url('NotoNaskhArabic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'GT Maru';
+  src: url('GTMaru-Light.woff2') format('woff2'), url('GTMaru-Light.woff') format('woff'), url('GTMaru-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Naskh Arabic';
-    src: url('NotoNaskhArabic-Bold.woff2') format('woff2'),
-        url('NotoNaskhArabic-Bold.woff') format('woff'),
-        url('NotoNaskhArabic-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'GT Maru';
+  src: url('GTMaru-Regular.woff2') format('woff2'), url('GTMaru-Regular.woff') format('woff'), url('GTMaru-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Naskh Arabic UI';
-    src: url('NotoNaskhArabicUI-Bold.woff2') format('woff2'),
-        url('NotoNaskhArabicUI-Bold.woff') format('woff'),
-        url('NotoNaskhArabicUI-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'GT Maru';
+  src: url('GTMaru-Medium.woff2') format('woff2'), url('GTMaru-Medium.woff') format('woff'), url('GTMaru-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Naskh Arabic UI';
-    src: url('NotoNaskhArabicUI.woff2') format('woff2'),
-        url('NotoNaskhArabicUI.woff') format('woff'),
-        url('NotoNaskhArabicUI.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'GT Maru';
+  src: url('GTMaru-Bold.woff2') format('woff2'), url('GTMaru-Bold.woff') format('woff'), url('GTMaru-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  src: url('NotoSansArabic-Light.woff2') format('woff2'), url('NotoSansArabic-Light.woff') format('woff'), url('NotoSansArabic-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-Black.woff2') format('woff2'),
-        url('NotoSans-Black.woff') format('woff'),
-        url('NotoSans-Black.ttf') format('truetype');
+  font-family: 'Noto Sans Arabic';
+  src: url('NotoSansArabic-Regular.woff2') format('woff2'), url('NotoSansArabic-Regular.woff') format('woff'), url('NotoSansArabic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  src: url('NotoSansArabic-Medium.woff2') format('woff2'), url('NotoSansArabic-Medium.woff') format('woff'), url('NotoSansArabic-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  src: url('NotoSansArabic-Bold.woff2') format('woff2'), url('NotoSansArabic-Bold.woff') format('woff'), url('NotoSansArabic-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url('NotoSansArabic-Black.woff2') format('woff2'),
+        url('NotoSansArabic-Black.woff') format('woff'),
+        url('NotoSansArabic-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-Bold.woff2') format('woff2'),
-        url('NotoSans-Bold.woff') format('woff'),
-        url('NotoSans-Bold.ttf') format('truetype');
+/*@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url('NotoSansArabic-ExtraBold.woff2') format('woff2'),
+        url('NotoSansArabic-ExtraBold.woff') format('woff'),
+        url('NotoSansArabic-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-ExtraLight.woff2') format('woff2'),
-        url('NotoSans-ExtraLight.woff') format('woff'),
-        url('NotoSans-ExtraLight.ttf') format('truetype');
+
+
+/*@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url('NotoSansArabic-ExtraLight.woff2') format('woff2'),
+        url('NotoSansArabic-ExtraLight.woff') format('woff'),
+        url('NotoSansArabic-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-ExtraBold.woff2') format('woff2'),
-        url('NotoSans-ExtraBold.woff') format('woff'),
-        url('NotoSans-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-Light.woff2') format('woff2'),
-        url('NotoSans-Light.woff') format('woff'),
-        url('NotoSans-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-Medium.woff2') format('woff2'),
-        url('NotoSans-Medium.woff') format('woff'),
-        url('NotoSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-Regular.woff2') format('woff2'),
-        url('NotoSans-Regular.woff') format('woff'),
-        url('NotoSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-SemiBold.woff2') format('woff2'),
-        url('NotoSans-SemiBold.woff') format('woff'),
-        url('NotoSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('NotoSans-Thin.woff2') format('woff2'),
-        url('NotoSans-Thin.woff') format('woff'),
-        url('NotoSans-Thin.ttf') format('truetype');
+/*@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url('NotoSansArabic-Thin.woff2') format('woff2'),
+        url('NotoSansArabic-Thin.woff') format('woff'),
+        url('NotoSansArabic-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
-}
+}*/
+
+/*@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url('NotoSansArabic-SemiBold.woff2') format('woff2'),
+        url('NotoSansArabic-SemiBold.woff') format('woff'),
+        url('NotoSansArabic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}*/
 

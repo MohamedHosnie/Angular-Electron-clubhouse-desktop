@@ -1,0 +1,32 @@
+<div class="titlebar--controls no-drag mr-n3">
+    <div *ngIf="options.minimizable"
+         class="titlebar--control titlebar--control-minimize"
+         title="Minimize"
+         id="minimize-control"
+         (click)="onMinimizeClick()">
+      <span>&#xE921;</span>
+    </div>
+    <div *ngIf="options.maximizable"
+         class="titlebar--control titlebar--control-restore"
+         title="Restore Down"
+         id="restore-control"
+         [ngClass]="{ 'd-none': maximized == false }"
+         (click)="onRestoreClick()">
+      <span>&#xE923;</span>
+    </div>
+    <div *ngIf="options.maximizable"
+         class="titlebar--control titlebar--control-maximize"
+         title="Maximize"
+         id="maximize-control"
+         [ngClass]="{ 'd-none': maximized == true }"
+         (click)="onMaximizeClick()">
+      <span>&#xE922;</span>
+    </div>
+    <div *ngIf="options.closable"
+         class="titlebar--control titlebar--control-close"
+         title="Close"
+         id="close-control"
+         (click)="onCloseClick()">
+      <span>&#xE8BB;</span>
+    </div>
+</div>

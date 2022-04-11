@@ -3,9 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\layout",
-    "\\src\\assets"
+    "\\src\\app\\core",
+    "\\src\\app\\core\\services",
+    "\\src\\app\\main",
+    "\\src\\app\\main\\layout",
+    "\\src\\app\\main\\profile",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\helpers",
+    "\\src\\app\\shared\\window-actions"
   ],
-  "SelectedNode": "\\src\\app\\layout\\layout.component.css",
   "PreviewInSolutionExplorer": false
 }
